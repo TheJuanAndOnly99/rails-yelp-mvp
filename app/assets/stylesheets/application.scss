@@ -1,0 +1,32 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+// @import "font-awesome-sprockets";
+// @import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+li{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+body{
+  margin-top: 50px
+}
+
+.container{
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 25px;
+}
